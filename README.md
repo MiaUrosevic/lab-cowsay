@@ -104,7 +104,7 @@ Follow the instructions in the `.github/workflows/command_line.yaml` so that the
 The most famous PEP is [PEP8](https://peps.python.org/pep-0008/),
 which defines best practices for formatting python code.
 For example, in python, it is recommended to put spaces around operators.
-This the following code
+Thus the following code
 ```
 x=1+2
 ```
@@ -149,6 +149,5 @@ To make the test case pass, you will have to modify the file `cowsay/__main__.py
 
 ## Submission
 
-Create a new repo on github and push your fixed code to the new repo.
 Ensure that all github actions badges are green.
 Then submit your repo link to canvas.
