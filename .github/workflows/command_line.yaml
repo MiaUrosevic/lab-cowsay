@@ -16,6 +16,8 @@ jobs:
           python-version: ${{matrix.python}}
       - name: Run tests
         run: |
+          pip3 install .
+          pip install --upgrade pip
           # everything that we put in here is a terminal command
           # the behavior on github actions will be basically the same
           # as the behavior in the terminal on your own computer
